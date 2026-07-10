@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IM Production | Visual Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Uluslararası Premium Fontlar: Syne ve Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Özel İmleç -->
+    <div class="custom-cursor"></div>
+
+    <!-- Arka Plan YouTube Videosu -->
+    <div class="video-background">
+        <div class="video-foreground">
+            <!-- VIDEO_ID_HERE yazan yere Red Bull videonun ID'sini gireceğiz -->
+            <iframe id="ytplayer" src="https://www.youtube.com/embed/VIDEO_ID_HERE?autoplay=1&mute=1&controls=0&loop=1&playlist=VIDEO_ID_HERE&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1" frameborder="0" allow="autoplay; fullscreen"></iframe>
+        </div>
+    </div>
+    <div class="overlay"></div>
+
+    <header>
+        <div class="logo">IM PRODUCTION</div>
+        <nav>
+            <a href="#expertise" class="hover-link">Uzmanlık</a>
+            <a href="#works" class="hover-link">İşler</a>
+            <a href="#contact" class="hover-link">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content reveal-text">
+            <h1>BEING PRESENT.</h1>
+            <p>We see the moments that matter.</p>
+        </div>
+        <div class="scroll-indicator">Aşağı Kaydır</div>
+    </section>
+
+    <section id="expertise" class="content-section solid-bg">
+        <div class="container reveal">
+            <h2 class="section-title">Güçlü Bir Ortaklık.</h2>
+            <p class="lead-text">Tekil çekimlerin ötesine geçiyoruz. Markanızın yıllık görsel iletişim motorunu tek bir merkezden, aylık retainer kurgusuyla uçtan uca yönetiyoruz. Kriz yok, bütçe aşımı yok; sadece kusursuz teslimat var.</p>
+        </div>
+    </section>
+
+    <!-- Seçilmiş İşler (Portfolio Grid) -->
+    <section id="works" class="portfolio-section solid-bg">
+        <div class="container reveal">
+            <h2 class="section-title">Seçilmiş İşler.</h2>
+            <div class="works-grid">
+                <!-- Proje 1 -->
+                <div class="work-item hover-link">
+                    <div class="work-image" style="background-image: url('https://images.unsplash.com/photo-1551244072-5d12893278ab?auto=format&fit=crop&q=80');"></div>
+                    <div class="work-info">
+                        <h3>Red Bull World Run</h3>
+                        <span>Etkinlik Prodüksiyonu</span>
+                    </div>
+                </div>
+                <!-- Proje 2 -->
+                <div class="work-item hover-link">
+                    <div class="work-image" style="background-image: url('https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&q=80');"></div>
+                    <div class="work-info">
+                        <h3>Puma Kampanya</h3>
+                        <span>Reklam Çekimi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer solid-bg">
+        <div class="container reveal">
+            <h2>Harekete Geçin.</h2>
+            <p>Markanızın yeni hikayesini Moda'daki stüdyomuzda bir kahve eşliğinde konuşalım.</p>
+            <a href="mailto:hello@improduction.com" class="btn hover-link">hello@improduction.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
